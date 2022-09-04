@@ -7,7 +7,7 @@ module.exports = {
     'type-enum': [
       2,
       'always',
-      [
+      [npm install --save-dev @commitlint/config-conventional@12.1.4 @commitlint/cli@12.1.4
         'feat', // 新功能 feature
         'fix', // 修复 bug
         'docs', // 文档注释

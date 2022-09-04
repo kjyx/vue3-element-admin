@@ -3,15 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "prepare": "husky install"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "element-plus": "^2.2.16",
+    "js-cookie": "^3.0.1",
+    "pinia": "^2.0.21",
+    "sass": "^1.54.8",
+    "sass-loader": "^13.0.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
@@ -23,7 +30,10 @@
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.1",
     "less": "^4.0.0",
-    "less-loader": "^8.0.0"
+    "less-loader": "^8.0.0",
+    "svg-sprite-loader": "^6.0.9",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4"
   },
   "browserslist": [
     "> 1%",
